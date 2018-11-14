@@ -39,16 +39,24 @@ def pd_read_csv(filepath, args={}, report=True):
     """ Shows time and shape of data loaded """
     if report:
         filename = filepath.split('/')[-1]
-        print('Reading-in {0}...'.format(filename))
+        print('[INFO] Reading-in {0}...'.format(filename))
         start_time = time.time()
         file = pd.read_csv(filepath, **args)
-        print('File reading completed. Took %s seconds' % round(time.time() - start_time, 4))
-        print('File shape', file.shape)
+        print('[INFO] File reading completed. Took %s seconds' % round(time.time() - start_time, 4))
+        print('[INFO] File shape', file.shape)
         return file
     return pd.read_csv(filepath, **args)
     
-def pd_write_csv():
-    pass
+def pd_write_csv(df, filepath, args={}, report=True):
+    """ Shows time and shape of data loaded """
+    if report:
+        filename = filepath.split('/')[-1]
+        print('[INFO] Writing df {0} to csv...'.format(filename))
+        start_time = time.time()
+        df.to_csv(filepath, **args)
+        print('[INFO] CSV writing completed. Took %s seconds' % round(time.time() - start_time, 4))
+        print('[INFO] DF shape', df.shape)
+    return df.to_csv(filepath, **args) 
 
 def chunk_list(splits, l):
     """ Splits list into a list of lists. """

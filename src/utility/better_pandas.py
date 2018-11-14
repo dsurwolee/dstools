@@ -8,7 +8,6 @@ def pd_reduce_size(df, dtypes_mapping={}):
         if col in dtypes_mapping:
             dtype = dtypes_mapping[col]
             df[col] = df[col].astype(dtype)
-            print(col, df[col].dtypes)
         else: 
             if dtype == 'int':
                 df[col] = df[col].astype('int32')
