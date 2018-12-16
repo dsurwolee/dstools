@@ -1,0 +1,83 @@
+Cannot load library from path lib/osx_64/libxgboost4j_gpu.dylib
+Cannot load library from path lib/libxgboost4j_gpu.dylib
+Failed to load library from both native path and jar!
+Cannot load library from path lib/osx_64/libxgboost4j_omp.dylib
+Cannot load library from path lib/libxgboost4j_omp.dylib
+Failed to load library from both native path and jar!
+12-15 19:57:26.713 10.0.0.191:54321      75744  main      INFO: Found XGBoost backend with library: xgboost4j_minimal
+12-15 19:57:26.722 10.0.0.191:54321      75744  main      INFO: Your system supports only minimal version of XGBoost (no GPUs, no multithreading)!
+12-15 19:57:26.722 10.0.0.191:54321      75744  main      INFO: ----- H2O started  -----
+12-15 19:57:26.722 10.0.0.191:54321      75744  main      INFO: Build git branch: rel-xia
+12-15 19:57:26.722 10.0.0.191:54321      75744  main      INFO: Build git hash: bcd0be7d9719a4af5dd93171389c5ebbef9cae9b
+12-15 19:57:26.722 10.0.0.191:54321      75744  main      INFO: Build git describe: jenkins-3.22.0.1-77-gbcd0be7
+12-15 19:57:26.722 10.0.0.191:54321      75744  main      INFO: Build project version: 3.22.0.2
+12-15 19:57:26.722 10.0.0.191:54321      75744  main      INFO: Build age: 23 days
+12-15 19:57:26.722 10.0.0.191:54321      75744  main      INFO: Built by: 'jenkins'
+12-15 19:57:26.722 10.0.0.191:54321      75744  main      INFO: Built on: '2018-11-22 07:06:04'
+12-15 19:57:26.722 10.0.0.191:54321      75744  main      INFO: Watchdog Build git branch: (unknown)
+12-15 19:57:26.722 10.0.0.191:54321      75744  main      INFO: Watchdog Build git hash: (unknown)
+12-15 19:57:26.723 10.0.0.191:54321      75744  main      INFO: Watchdog Build git describe: (unknown)
+12-15 19:57:26.723 10.0.0.191:54321      75744  main      INFO: Watchdog Build project version: (unknown)
+12-15 19:57:26.723 10.0.0.191:54321      75744  main      INFO: Watchdog Built by: (unknown)
+12-15 19:57:26.723 10.0.0.191:54321      75744  main      INFO: Watchdog Built on: (unknown)
+12-15 19:57:26.723 10.0.0.191:54321      75744  main      INFO: XGBoost Build git branch: (unknown)
+12-15 19:57:26.723 10.0.0.191:54321      75744  main      INFO: XGBoost Build git hash: (unknown)
+12-15 19:57:26.723 10.0.0.191:54321      75744  main      INFO: XGBoost Build git describe: (unknown)
+12-15 19:57:26.723 10.0.0.191:54321      75744  main      INFO: XGBoost Build project version: (unknown)
+12-15 19:57:26.724 10.0.0.191:54321      75744  main      INFO: XGBoost Built by: (unknown)
+12-15 19:57:26.724 10.0.0.191:54321      75744  main      INFO: XGBoost Built on: (unknown)
+12-15 19:57:26.724 10.0.0.191:54321      75744  main      INFO: KrbStandalone Build git branch: (unknown)
+12-15 19:57:26.724 10.0.0.191:54321      75744  main      INFO: KrbStandalone Build git hash: (unknown)
+12-15 19:57:26.724 10.0.0.191:54321      75744  main      INFO: KrbStandalone Build git describe: (unknown)
+12-15 19:57:26.724 10.0.0.191:54321      75744  main      INFO: KrbStandalone Build project version: (unknown)
+12-15 19:57:26.724 10.0.0.191:54321      75744  main      INFO: KrbStandalone Built by: (unknown)
+12-15 19:57:26.724 10.0.0.191:54321      75744  main      INFO: KrbStandalone Built on: (unknown)
+12-15 19:57:26.725 10.0.0.191:54321      75744  main      INFO: Processed H2O arguments: [-port, 54321, -nthreads, -1, -flatfile, flatfile.txt]
+12-15 19:57:26.725 10.0.0.191:54321      75744  main      INFO: Java availableProcessors: 8
+12-15 19:57:26.725 10.0.0.191:54321      75744  main      INFO: Java heap totalMemory: 245.5 MB
+12-15 19:57:26.725 10.0.0.191:54321      75744  main      INFO: Java heap maxMemory: 13.33 GB
+12-15 19:57:26.725 10.0.0.191:54321      75744  main      INFO: Java version: Java 1.8.0_191 (from Oracle Corporation)
+12-15 19:57:26.725 10.0.0.191:54321      75744  main      INFO: JVM launch parameters: [-Xmx15g]
+12-15 19:57:26.725 10.0.0.191:54321      75744  main      INFO: OS version: Mac OS X 10.13.6 (x86_64)
+12-15 19:57:26.725 10.0.0.191:54321      75744  main      INFO: Machine physical memory: 16.00 GB
+12-15 19:57:26.725 10.0.0.191:54321      75744  main      INFO: X-h2o-cluster-id: 1544932646079
+12-15 19:57:26.725 10.0.0.191:54321      75744  main      INFO: User name: 'dlee8'
+12-15 19:57:26.726 10.0.0.191:54321      75744  main      INFO: IPv6 stack selected: false
+12-15 19:57:26.726 10.0.0.191:54321      75744  main      INFO: Network address/interface is not reachable in 150ms: /fe80:0:0:0:aede:48ff:fe00:1122%en6/name:en6 (en6)
+12-15 19:57:26.726 10.0.0.191:54321      75744  main      INFO: Network address/interface is not reachable in 150ms: /fe80:0:0:0:892c:851a:b56d:25b7%utun0/name:utun0 (utun0)
+12-15 19:57:26.726 10.0.0.191:54321      75744  main      INFO: Network address/interface is not reachable in 150ms: /fe80:0:0:0:b0c9:c2ff:fe8c:89e0%awdl0/name:awdl0 (awdl0)
+12-15 19:57:26.726 10.0.0.191:54321      75744  main      INFO: Possible IP Address: en0 (en0), 10.0.0.191
+12-15 19:57:26.726 10.0.0.191:54321      75744  main      INFO: Possible IP Address: lo0 (lo0), fe80:0:0:0:0:0:0:1%lo0
+12-15 19:57:26.726 10.0.0.191:54321      75744  main      INFO: Possible IP Address: lo0 (lo0), 0:0:0:0:0:0:0:1%lo0
+12-15 19:57:26.726 10.0.0.191:54321      75744  main      INFO: Possible IP Address: lo0 (lo0), 127.0.0.1
+12-15 19:57:26.726 10.0.0.191:54321      75744  main      INFO: H2O node running in unencrypted mode.
+12-15 19:57:26.728 10.0.0.191:54321      75744  main      INFO: Internal communication uses port: 54322
+12-15 19:57:26.728 10.0.0.191:54321      75744  main      INFO: Listening for HTTP and REST traffic on http://10.0.0.191:54321/
+12-15 19:57:26.730 10.0.0.191:54321      75744  main      WARN: -flatfile specified but not found: flatfile.txt
+12-15 19:57:26.730 10.0.0.191:54321      75744  main      INFO: H2O cloud name: 'dlee8' on /10.0.0.191:54321, static configuration based on -flatfile flatfile.txt
+12-15 19:57:26.730 10.0.0.191:54321      75744  main      INFO: If you have trouble connecting, try SSH tunneling from your local machine (e.g., via port 55555):
+12-15 19:57:26.730 10.0.0.191:54321      75744  main      INFO:   1. Open a terminal and run 'ssh -L 55555:localhost:54321 dlee8@10.0.0.191'
+12-15 19:57:26.730 10.0.0.191:54321      75744  main      INFO:   2. Point your browser to http://localhost:55555
+12-15 19:57:27.219 10.0.0.191:54321      75744  main      INFO: Log dir: '/tmp/h2o-dlee8/h2ologs'
+12-15 19:57:27.219 10.0.0.191:54321      75744  main      INFO: Cur dir: '/Users/dlee8/Jupyter/dstools/utility'
+12-15 19:57:27.225 10.0.0.191:54321      75744  main      INFO: Subsystem for distributed import from HTTP/HTTPS successfully initialized
+12-15 19:57:27.225 10.0.0.191:54321      75744  main      INFO: HDFS subsystem successfully initialized
+12-15 19:57:27.229 10.0.0.191:54321      75744  main      INFO: S3 subsystem successfully initialized
+12-15 19:57:27.243 10.0.0.191:54321      75744  main      INFO: GCS subsystem successfully initialized
+12-15 19:57:27.243 10.0.0.191:54321      75744  main      INFO: Flow dir: '/Users/dlee8/h2oflows'
+12-15 19:57:27.259 10.0.0.191:54321      75744  main      INFO: Cloud of size 1 formed [/10.0.0.191:54321]
+12-15 19:57:27.267 10.0.0.191:54321      75744  main      INFO: Registered parsers: [GUESS, ARFF, XLS, SVMLight, AVRO, PARQUET, CSV]
+12-15 19:57:27.267 10.0.0.191:54321      75744  main      INFO: Watchdog extension initialized
+12-15 19:57:27.267 10.0.0.191:54321      75744  main      INFO: XGBoost extension initialized
+12-15 19:57:27.268 10.0.0.191:54321      75744  main      INFO: KrbStandalone extension initialized
+12-15 19:57:27.268 10.0.0.191:54321      75744  main      INFO: Registered 3 core extensions in: 62ms
+12-15 19:57:27.268 10.0.0.191:54321      75744  main      INFO: Registered H2O core extensions: [Watchdog, XGBoost, KrbStandalone]
+12-15 19:57:27.533 10.0.0.191:54321      75744  main      INFO: Registered: 169 REST APIs in: 265ms
+12-15 19:57:27.542 10.0.0.191:54321      75744  main      INFO: Registered REST API extensions: [XGBoost, Algos, AutoML, Core V3, Core V4]
+12-15 19:57:27.659 10.0.0.191:54321      75744  main      INFO: Registered: 242 schemas in 117ms
+12-15 19:57:27.659 10.0.0.191:54321      75744  main      INFO: H2O started in 1572ms
+12-15 19:57:27.660 10.0.0.191:54321      75744  main      INFO: 
+12-15 19:57:27.660 10.0.0.191:54321      75744  main      INFO: Open H2O Flow in your web browser: http://10.0.0.191:54321
+12-15 19:57:27.660 10.0.0.191:54321      75744  main      INFO: 
+12-15 19:57:28.950 10.0.0.191:54321      75744  #71051-15 INFO: GET /3/Capabilities/API, parms: {}
+12-15 19:57:28.950 10.0.0.191:54321      75744  #71051-15 INFO: Locking cloud to new members, because water.api.schemas3.CapabilitiesV3
