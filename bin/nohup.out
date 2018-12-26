@@ -327,3 +327,61 @@ Failed to load library from both native path and jar!
 12-15 19:55:13.801 10.0.0.191:54321      74138  main      INFO: 
 12-15 19:55:36.425 10.0.0.191:54321      74138  #71051-19 INFO: GET /3/Capabilities/API, parms: {}
 12-15 19:55:36.426 10.0.0.191:54321      74138  #71051-19 INFO: Locking cloud to new members, because water.api.schemas3.CapabilitiesV3
+Error: Unable to access jarfile /Users/dlee8/h2o.jar
+12-15 22:09:08.569 156.36.201.57:54321   86259  main      INFO: ----- H2O started  -----
+12-15 22:09:08.610 156.36.201.57:54321   86259  main      INFO: Build git branch: rel-vajda
+12-15 22:09:08.611 156.36.201.57:54321   86259  main      INFO: Build git hash: e322f0d8ae1bbc8072ec026021aef9d3c86e4add
+12-15 22:09:08.611 156.36.201.57:54321   86259  main      INFO: Build git describe: jenkins-michalk-bueno-1
+12-15 22:09:08.611 156.36.201.57:54321   86259  main      INFO: Build project version: 3.10.5.1 (latest version: unknown)
+12-15 22:09:08.611 156.36.201.57:54321   86259  main      INFO: Build age: 1 year, 6 months and 6 days
+12-15 22:09:08.611 156.36.201.57:54321   86259  main      INFO: Built by: 'jenkins'
+12-15 22:09:08.611 156.36.201.57:54321   86259  main      INFO: Built on: '2017-06-09 21:47:15'
+12-15 22:09:08.611 156.36.201.57:54321   86259  main      INFO: 
+12-15 22:09:08.611 156.36.201.57:54321   86259  main      INFO: *** Your H2O version is too old! Please download the latest version unknown from http://h2o.ai/download/ ***
+12-15 22:09:08.611 156.36.201.57:54321   86259  main      INFO: 
+12-15 22:09:08.611 156.36.201.57:54321   86259  main      INFO: Watchdog Build git branch: (unknown)
+12-15 22:09:08.611 156.36.201.57:54321   86259  main      INFO: Watchdog Build git hash: (unknown)
+12-15 22:09:08.612 156.36.201.57:54321   86259  main      INFO: Watchdog Build git describe: (unknown)
+12-15 22:09:08.612 156.36.201.57:54321   86259  main      INFO: Watchdog Build project version: (unknown)
+12-15 22:09:08.612 156.36.201.57:54321   86259  main      INFO: Watchdog Built by: (unknown)
+12-15 22:09:08.612 156.36.201.57:54321   86259  main      INFO: Watchdog Built on: (unknown)
+12-15 22:09:08.612 156.36.201.57:54321   86259  main      INFO: Processed H2O arguments: [-port, 54321, -nthreads, -1, -flatfile, flatfile.txt]
+12-15 22:09:08.612 156.36.201.57:54321   86259  main      INFO: Java availableProcessors: 16
+12-15 22:09:08.612 156.36.201.57:54321   86259  main      INFO: Java heap totalMemory: 479.5 MB
+12-15 22:09:08.612 156.36.201.57:54321   86259  main      INFO: Java heap maxMemory: 13.33 GB
+12-15 22:09:08.612 156.36.201.57:54321   86259  main      INFO: Java version: Java 1.8.0_181 (from Oracle Corporation)
+12-15 22:09:08.613 156.36.201.57:54321   86259  main      INFO: JVM launch parameters: [-Xmx15g]
+12-15 22:09:08.613 156.36.201.57:54321   86259  main      INFO: OS version: Linux 3.10.0-862.14.4.el7.x86_64 (amd64)
+12-15 22:09:08.613 156.36.201.57:54321   86259  main      INFO: Machine physical memory: 31.25 GB
+12-15 22:09:08.613 156.36.201.57:54321   86259  main      INFO: X-h2o-cluster-id: 1544933346412
+12-15 22:09:08.613 156.36.201.57:54321   86259  main      INFO: User name: 'simility'
+12-15 22:09:08.613 156.36.201.57:54321   86259  main      INFO: IPv6 stack selected: false
+12-15 22:09:08.613 156.36.201.57:54321   86259  main      INFO: Possible IP Address: eth0 (eth0), fe80:0:0:0:250:56ff:fe85:5b69%eth0
+12-15 22:09:08.613 156.36.201.57:54321   86259  main      INFO: Possible IP Address: eth0 (eth0), 156.36.201.57
+12-15 22:09:08.613 156.36.201.57:54321   86259  main      INFO: Possible IP Address: lo (lo), 0:0:0:0:0:0:0:1%lo
+12-15 22:09:08.613 156.36.201.57:54321   86259  main      INFO: Possible IP Address: lo (lo), 127.0.0.1
+12-15 22:09:08.613 156.36.201.57:54321   86259  main      INFO: H2O node running in unencrypted mode.
+12-15 22:09:08.617 156.36.201.57:54321   86259  main      INFO: Internal communication uses port: 54322
+12-15 22:09:08.617 156.36.201.57:54321   86259  main      INFO: Listening for HTTP and REST traffic on http://156.36.201.57:54321/
+12-15 22:09:08.617 156.36.201.57:54321   86259  main      WARN: -flatfile specified but not found: flatfile.txt
+12-15 22:09:08.617 156.36.201.57:54321   86259  main      INFO: H2O cloud name: 'simility' on /156.36.201.57:54321, static configuration based on -flatfile flatfile.txt
+12-15 22:09:08.618 156.36.201.57:54321   86259  main      INFO: If you have trouble connecting, try SSH tunneling from your local machine (e.g., via port 55555):
+12-15 22:09:08.618 156.36.201.57:54321   86259  main      INFO:   1. Open a terminal and run 'ssh -L 55555:localhost:54321 simility@156.36.201.57'
+12-15 22:09:08.618 156.36.201.57:54321   86259  main      INFO:   2. Point your browser to http://localhost:55555
+12-15 22:09:08.618 156.36.201.57:54321   86259  main      INFO: Log dir: '/tmp/h2o-simility/h2ologs'
+12-15 22:09:08.618 156.36.201.57:54321   86259  main      INFO: Cur dir: '/simility/jupyter/daniel/first_party_model/dstools/bin'
+12-15 22:09:08.645 156.36.201.57:54321   86259  main      INFO: HDFS subsystem successfully initialized
+12-15 22:09:08.648 156.36.201.57:54321   86259  main      INFO: S3 subsystem successfully initialized
+12-15 22:09:08.648 156.36.201.57:54321   86259  main      INFO: Flow dir: '/home/simility/h2oflows'
+12-15 22:09:08.659 156.36.201.57:54321   86259  main      INFO: Cloud of size 1 formed [/156.36.201.57:54321]
+12-15 22:09:08.668 156.36.201.57:54321   86259  main      INFO: Registered parsers: [GUESS, ARFF, XLS, SVMLight, AVRO, PARQUET, CSV]
+12-15 22:09:08.668 156.36.201.57:54321   86259  main      INFO: Watchdog extension initialized
+12-15 22:09:08.668 156.36.201.57:54321   86259  main      INFO: Registered 1 core extensions in: 3ms
+12-15 22:09:08.668 156.36.201.57:54321   86259  main      INFO: Registered H2O core extensions: [Watchdog]
+12-15 22:09:08.875 156.36.201.57:54321   86259  main      INFO: Registered: 155 REST APIs in: 207ms
+12-15 22:09:08.876 156.36.201.57:54321   86259  main      INFO: Registered REST API extensions: [XGBoost, water.api.RegisterResourceRoots, Core V3, Core V4, Algos]
+12-15 22:09:08.974 156.36.201.57:54321   86259  main      INFO: Registered: 216 schemas in 98ms
+12-15 22:09:08.975 156.36.201.57:54321   86259  main      INFO: H2O started in 2552ms
+12-15 22:09:08.975 156.36.201.57:54321   86259  main      INFO: 
+12-15 22:09:08.975 156.36.201.57:54321   86259  main      INFO: Open H2O Flow in your web browser: http://156.36.201.57:54321
+12-15 22:09:08.975 156.36.201.57:54321   86259  main      INFO: 

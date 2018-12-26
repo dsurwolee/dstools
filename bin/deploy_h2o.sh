@@ -8,12 +8,11 @@
 # Description: H2O deployment script
 
 # Required configurations
-JARPATH=/Users/dlee8/h2o.jar
+JARPATH=/simility/lib/h2o.jar
 IP_ADDRESS=127.0.0.1
 PORT=54321
 MEMORY=15
 NTHREADS=-1
-NOHUP=true
 
 # Start h2o shell script
 function start_h2o ()
