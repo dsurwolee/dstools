@@ -15,9 +15,14 @@ MEMORY=15
 NTHREADS=-1
 
 # Start h2o shell script
+#function start_h2o ()
+#{
+#	nohup java -Xmx${MEMORY}g -jar ${JARPATH} -port ${PORT} -nthreads ${NTHREADS} -flatfile flatfile.txt &
+#}
+
 function start_h2o ()
 {
-	nohup java -Xmx${MEMORY}g -jar ${JARPATH} -port ${PORT} -nthreads ${NTHREADS} -flatfile flatfile.txt &
+	/usr/bin/java -ea -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -jar /home/simility/anaconda3/lib/python3.6/site-packages/h2o/backend/bin/h2o.jar -ip 127.0.0.1 -baseport54321 -ice_root /tmp/tmpm039c1xe -name H2O_from_python_simility_y7z4fu -log_level INFO
 }
 
 # Main function to execute
