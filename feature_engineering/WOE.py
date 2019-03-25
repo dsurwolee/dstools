@@ -16,7 +16,6 @@ from sklearn.tree import DecisionTreeClassifier
 # categorical and continuous variables
 # =============================================================================
 
-
 class TigressWOE:
 	"""Computes weight-of-evidence and information"""
 
@@ -121,13 +120,24 @@ class TigressWOE:
 			x_bin = pd.Series(tree.predict_proba(x)[:, 1].round(4))
 			
 		return x_bin.astype(str), tree
+<<<<<<< HEAD
 
+=======
+>>>>>>> tigress_dev
 
 	def sparse_cleaning(self, x, y, v):
 		stat = pd.crosstab(x, y, normalize=True, margins=True)
 		rare = (stat[(stat[1] < self.min_perc_class) | 
 					 (stat[1] > 1 - self.min_perc_class)].index.tolist())
 
+<<<<<<< HEAD
+=======
+	def sparse_cleaning(self, x, y, v):
+		stat = pd.crosstab(x, y, normalize=True, margins=True)
+		rare = (stat[(stat[1] < self.min_perc_class) | 
+					 (stat[1] > 1 - self.min_perc_class)].index.tolist())
+
+>>>>>>> tigress_dev
 		if v != 'continuous':
 			rare_grp = stat[stat['All'] < self.min_perc_total].index.tolist()
 			rare = list(set(rare).union(rare_grp)) 
@@ -167,6 +177,7 @@ class TigressWOE:
 			if v == 'continuous':
 				x = self.quantile_binning(x, c)
 				x = x.cat.add_categories(['MISSING','RARE'])
+<<<<<<< HEAD
 
 			# Pre-process - replace NaN
 			x = x.fillna('MISSING').astype(str)
@@ -178,6 +189,19 @@ class TigressWOE:
 			woe = self.compute_woe(x, y, self.limit)
 			self.tables[c] = woe
 
+=======
+
+			# Pre-process - replace NaN
+			x = x.fillna('MISSING').astype(str)
+
+			# Pre-process - remove sparsity
+			x = self.sparse_cleaning(x, y, v)
+
+			# Calculate WOE
+			woe = self.compute_woe(x, y, self.limit)
+			self.tables[c] = woe
+
+>>>>>>> tigress_dev
 			# Revise Mapping for RARE values 
 			woe_map = woe['woe'].to_dict()
 
